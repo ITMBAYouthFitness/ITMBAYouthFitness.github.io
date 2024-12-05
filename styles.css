@@ -43,6 +43,7 @@
     background-color: darkgrey;
     bottom: 0px;
     text-align: center;
+    height: 100px;
     /* animation: slideInFromLeft ease 1s, fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: both;
@@ -58,6 +59,7 @@
 .navbar {
     justify-content: center;
     width: 100%;
+    
     /* background-color: aqua; */
     display: flex;
 }

@@ -1,38 +1,5 @@
-    html {
+html {
     color: white;
-}
-
-.top-container {
-    height:20%;
-    width:100%;
-    overflow:hidden;
-    animation: slideInFromLeft ease 1s, fadeInAnimation ease 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
-    animation-delay: 0.1s;  
-}
-
-.name {
-    position:fixed;
-    left:50%;
-    top:50%;
-    transform: translate(-50%, -50%);
-    z-index: 5;
-}
-
-.banner {
-    width:4096px;
-    height:256px;
-    display:flex;
-    background-image: url("banner02.png");
-    background-color: grey;
-    background-repeat: repeat;
-    background-size:50% 100%;
-    /* animation: slideInFromLeft ease 1s, fadeInAnimation ease 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
-    animation-delay: 0.1s;   */
-    animation: bannermove 40s linear infinite;
 }
 
 .tab {
@@ -41,9 +8,10 @@
     width:100%;
     margin: 0 auto;
     background-color: darkgrey;
-    bottom: 0px;
+    /* bottom: 0px; */
     text-align: center;
-    height: 100px;
+    /* height: 220px; */
+    min-height: 100px;
     /* animation: slideInFromLeft ease 1s, fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: both;
@@ -59,8 +27,6 @@
 .navbar {
     justify-content: center;
     width: 100%;
-    
-    /* background-color: aqua; */
     display: flex;
 }
 
@@ -110,8 +76,6 @@ ul {
     display:grid;
 }
 
-
-
 .showcase-container {
     width:100%;
     display: flex;
@@ -120,10 +84,6 @@ ul {
     z-index:0;
     position:relative;
 }
-
-
-
-
 
 .tabvert {
     width: 150px;
@@ -134,24 +94,6 @@ ul {
     height:fit-content;
     padding-top: 20px;
     
-}
-
-.tabvert button {
-    
-    
-    border: none;
-    outline: none;
-    cursor: pointer;
-    width: 100%;
-    height:150px;
-    margin:2px 0px;
-    transition: 0.3s;
-    font-size: 24px;
-    text-align: center;
-    padding: 0px;
-    vertical-align: middle;
-    background-color: rgb(231, 231, 231);
-    border-radius: 10px 0px 0px 10px;
 }
 
 button {
@@ -178,8 +120,9 @@ button.active {
     margin-right:auto; */
     background-color: rgba(255, 255, 255, 255);
     /* border: 2px solid darkgrey; */
-    max-width:1200px;
-    width:70%;
+    /* max-width:1200px; */
+    width: 100%;
+    max-width:1600px;
     height:auto;
     overflow:visible;
     /* min-height: 500px; */
@@ -203,14 +146,6 @@ button.active {
     width:100%;
 }
 
-.tabcontentvert {
-    display:flex;
-    float:right;
-    width: 100%;
-    /* padding: 50px; */
-    height:fit-content;
-}
-
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%;
@@ -227,8 +162,19 @@ button.active {
     height: 100%;
 }
 
+.panel {
+    font-size: 18px;
+    background-color: rgb(226, 226, 226);width: 150px;height: 150px;margin: 30px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 video {
-width:100%;
+    width:100%;
 }
 
 body {
@@ -245,8 +191,8 @@ body {
 }
 
 html {
-    font-family: verdana;
-    font-size: 20px;
+    font-family: "Abel", sans-serif;
+    font-size: 22px;
     color: black;
     /* padding: 20px; */
     /* background-color: rgba(200, 200, 200, 255); */

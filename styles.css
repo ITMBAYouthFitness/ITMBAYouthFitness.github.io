@@ -125,6 +125,7 @@ button.active {
     max-width:1600px;
     height:auto;
     overflow:visible;
+    overflow-x: hidden;
     /* min-height: 500px; */
     position:relative;
     box-shadow: 0px 0px 40px 20px rgba(150, 150, 150); /*any color you want*/
